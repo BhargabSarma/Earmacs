@@ -1,5 +1,5 @@
 <?php
-require 'db.php';
+require './config/db.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $property_id    = $_POST['property_id'] ?? null;

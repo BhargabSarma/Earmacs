@@ -7,6 +7,7 @@
             <a href="dashboard.php" class="block px-4 py-2 rounded hover:bg-indigo-100 text-gray-700 font-medium">Dashboard</a>
             <a href="add_property.php" class="block px-4 py-2 rounded hover:bg-indigo-100 text-gray-700 font-medium">Properties</a>
             <a href="add_room.php" class="block px-4 py-2 rounded hover:bg-indigo-100 text-gray-700 font-medium">Rooms</a>
+            <a href="add_packages.php" class="block px-4 py-2 rounded hover:bg-indigo-100 text-gray-700 font-medium">Packages/Features</a>
             <a href="booking.php" class="block px-4 py-2 rounded hover:bg-indigo-100 text-gray-700 font-medium">Bookings</a>
             <a href="guest.php" class="block px-4 py-2 rounded hover:bg-indigo-100 text-gray-700 font-medium">Guests</a>
         </nav>

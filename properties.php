@@ -1,5 +1,5 @@
 <?php
-require 'db.php';
+require './config/db.php';
 
 // Fetch all properties
 $stmt = $pdo->prepare("SELECT * FROM properties ORDER BY created_at DESC");
@@ -9,10 +9,12 @@ $properties = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Available Properties</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
+
 <body class="container py-4">
     <h2 class="mb-4">Available Properties</h2>
 
@@ -32,4 +34,5 @@ $properties = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <?php endforeach; ?>
     </div>
 </body>
+
 </html>

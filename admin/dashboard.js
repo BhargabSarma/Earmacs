@@ -11,8 +11,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
   let properties = [];
 
-  const formatCurrency = (val) =>
-    new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(val);
+const formatCurrency = (val) => {
+  const formatted = new Intl.NumberFormat('en-IN', {
+    style: 'decimal',
+    maximumFractionDigits: 2,
+  }).format(val);
+  return `Rs ${formatted}`;
+};
+
 
   const fetchDashboardData = async () => {
     try {

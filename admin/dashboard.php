@@ -31,7 +31,7 @@
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow">
                     <h2 class="text-sm text-gray-500">Total Revenue</h2>
-                    <p id="total-revenue" class="text-2xl font-bold text-indigo-600">$0.00</p>
+                    <p id="total-revenue" class="text-2xl font-bold text-indigo-600">0.00</p>
                 </div>
             </div>
 
@@ -46,7 +46,7 @@
                 <div class="bg-white p-4 rounded-lg shadow property-summary-item cursor-pointer hover:bg-indigo-50 transition">
                     <h4 class="text-lg font-semibold mb-1">[Property Name]</h4>
                     <p class="text-sm text-gray-500">Rooms: <span class="rooms-available">0</span></p>
-                    <p class="text-sm text-gray-500">Revenue: <span class="property-revenue">$0.00</span></p>
+                    <p class="text-sm text-gray-500">Revenue: <span class="property-revenue">0.00</span></p>
                     <ul class="room-revenue-list mt-2 text-sm text-gray-600 space-y-1"></ul>
                 </div>
             </template>
