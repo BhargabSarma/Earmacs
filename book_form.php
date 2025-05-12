@@ -111,7 +111,7 @@ $packages = $pkgStmt->fetchAll(PDO::FETCH_ASSOC);
                     <option value="<?= $pkg['id'] ?>"
                         data-b2c="<?= $pkg['b2c_rate'] ?>"
                         data-extra="<?= $pkg['extra_person_rate'] ?>">
-                        <?= htmlspecialchars($pkg['package_type']) ?>
+                        <?= htmlspecialchars($pkg['package_type']) ?>, <?= htmlspecialchars($pkg['occupancy_type']) ?>
                     </option>
                 <?php endforeach; ?>
             </select>
